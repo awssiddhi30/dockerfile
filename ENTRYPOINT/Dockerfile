@@ -1,4 +1,4 @@
 FROM almalinux
 RUN dnf install nginx -y
-CMD ["google.com"]
+CMD ["amazon.com"]
 ENTRYPOINT ["ping"]
