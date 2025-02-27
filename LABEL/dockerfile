@@ -1,0 +1,5 @@
+FROM almalinux
+RUN dnf install nginx -y
+LABEL project="expense"/
+      environment="dev"/
+      component="frontend"
